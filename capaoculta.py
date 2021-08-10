@@ -2,7 +2,7 @@ import cv2 as cv
 import os
 import numpy as np
 
-dataRuta='/home/jordi/Development/Python courses/Image analisis with Python/FACIAL RECOGNITION/Data'
+dataRuta='/Data'
 
 listaData=os.listdir(dataRuta)
 
