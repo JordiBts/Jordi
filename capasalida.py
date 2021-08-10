@@ -6,9 +6,9 @@ dataRuta='/Data'
 listaData=os.listdir(dataRuta)
 entrenamientoEigenFaceRecognizer=cv.face.EigenFaceRecognizer_create()
 
-entrenamientoEigenFaceRecognizer.read('EntrenamientoEigenFaceRecognizer.xml')
+entrenamientoEigenFaceRecognizer.read('EntrenamientoEigenFaceRecognizer.xml') #created and trained after capaoculta.py
 ruidos=cv.CascadeClassifier('haarcascade_frontalface_default.xml')
-camara=cv.VideoCapture('videoauron.mp4')
+camara=cv.VideoCapture('model.mp4')
 
 while True:
     respuesta,captura=camara.read()
