@@ -30,7 +30,7 @@ while True:
         cv.imwrite(rutacompleta+'/imagen_{}.jpg'.format(id),rostrocapturado)
         id+=1
 
-    #cv.imshow('Result', captura)
+    cv.imshow('Result', captura)
     
     if id==351:
         break
