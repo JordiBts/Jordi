@@ -2,8 +2,8 @@ import cv2 as cv
 import os 
 
 #Data-base
-modelo='FotosCeli'
-ruta1='/home/jordi/Development/Python courses/Image analisis with Python/FACIAL RECOGNITION/Data'
+modelo='FotosModel'
+ruta1='/Data'
 rutacompleta = ruta1+'/'+modelo
 #Check if the rout exist, if not create it
 if not os.path.exists(rutacompleta):
@@ -11,7 +11,7 @@ if not os.path.exists(rutacompleta):
 
 #-------------------------------------------------------------
 ruidos=cv.CascadeClassifier('haarcascade_frontalface_default.xml')
-camara=cv.VideoCapture('celi.mp4')
+camara=cv.VideoCapture('model.mp4')
 id=0
 #Activate camera
 while True:
