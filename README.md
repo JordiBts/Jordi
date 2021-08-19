@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @JordiBts
+- 👋 Hi, I’m Jordi Bustos
 - 👀 I’m interested in Software Development and Web Development
 - 🌱 I’m currently studying Computer Sciencie at Universidad de La PLata
 - 💞️ I’m looking to collaborate on Development Projects
